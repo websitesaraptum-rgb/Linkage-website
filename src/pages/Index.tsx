@@ -12,9 +12,9 @@ const Index = () => {
       <Navbar />
       
       <HeroSection
-        title="Your Partner in Business Excellence"
-        subtitle="Leading Business Process Outsourcing & Organizational Development"
-        description="Transform your organization with our comprehensive BPO services, strategic consulting, and professional development solutions across East Africa."
+        title="Linkage Outsourcing Services Ltd."
+        subtitle="People, Skills, Progress"
+        description="10+ years of experience in Business Consultancies, organization Improvement and professional outsourcing. We have managed over 200 Local and Multinational Organizations across Kenya, Rwanda, DR Congo and Burundi."
         ctaText="Work With Us"
         ctaLink="/contact"
       />
@@ -91,7 +91,7 @@ const Index = () => {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="mb-6">Ready to Transform Your Business?</h2>
             <p className="text-xl mb-8 opacity-90">
-              Join leading organizations across East Africa who trust ConsultPro for their business transformation needs.
+              Join leading organizations across East Africa who trust Linkage Outsourcing Services for their business transformation needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

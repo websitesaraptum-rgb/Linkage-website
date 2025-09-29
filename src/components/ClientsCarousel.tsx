@@ -4,18 +4,31 @@ const ClientsCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const clients = [
-    { name: "Airtel", logo: "Airtel" },
+    { name: "Airtel Rwanda", logo: "Airtel" },
     { name: "KCB Bank", logo: "KCB" },
-    { name: "GT Bank", logo: "GT Bank" },
+    { name: "GT Bank Kigali", logo: "GT Bank" },
     { name: "Bank of Kigali", logo: "BK" },
+    { name: "Sonarwa", logo: "Sonarwa" },
     { name: "Britam", logo: "Britam" },
+    { name: "UAP Insurance", logo: "UAP" },
+    { name: "Oiko Credit", logo: "Oiko" },
+    { name: "Horizon Group", logo: "Horizon" },
+    { name: "Akagera Business Group", logo: "ABG" },
+    { name: "Mjengo", logo: "Mjengo" },
+    { name: "Private Sector Federation", logo: "PSF" },
+    { name: "Business Partners International", logo: "BPI" },
+    { name: "World Bank", logo: "WB" },
+    { name: "Chemi Cotex", logo: "Chemi" },
     { name: "UNDP", logo: "UNDP" },
-    { name: "World Bank", logo: "World Bank" },
-    { name: "First Community Bank", logo: "FCB" },
-    { name: "EADB Bank", logo: "EADB" },
-    { name: "Post Office Savings Bank", logo: "POSB" },
-    { name: "Uganda Gatsby Trust", logo: "UGT" },
-    { name: "Unilever ESA", logo: "Unilever" }
+    { name: "BBOXX International", logo: "BBOXX" },
+    { name: "Techno Serve", logo: "TechnoServe" },
+    { name: "Girlhub", logo: "Girlhub" },
+    { name: "Nike Foundation", logo: "Nike" },
+    { name: "Diamond Industries", logo: "Diamond" },
+    { name: "Cargill", logo: "Cargill" },
+    { name: "Redplum", logo: "Redplum" },
+    { name: "Chai Trading Ltd", logo: "Chai" },
+    { name: "Pwani Oil", logo: "Pwani" }
   ];
 
   // Auto-scroll functionality
@@ -87,12 +100,12 @@ const ClientsCarousel = () => {
         {/* Client Stats */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
           <div className="text-center">
-            <div className="text-4xl font-bold text-primary mb-2">50+</div>
-            <p className="text-muted-foreground">Satisfied Clients</p>
+            <div className="text-4xl font-bold text-primary mb-2">200+</div>
+            <p className="text-muted-foreground">Organizations Managed</p>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-primary mb-2">100+</div>
-            <p className="text-muted-foreground">Projects Completed</p>
+            <div className="text-4xl font-bold text-primary mb-2">3,000+</div>
+            <p className="text-muted-foreground">Staff Development</p>
           </div>
           <div className="text-center">
             <div className="text-4xl font-bold text-primary mb-2">10+</div>

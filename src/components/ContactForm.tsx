@@ -45,16 +45,16 @@ const ContactForm = () => {
                   Rwanda Headquarters
                 </h3>
                 <div className="space-y-2 text-muted-foreground">
-                  <p>Kigali Business Center</p>
-                  <p>KG 9 Ave, Nyarugenge</p>
+                  <p>House no.128, KGL 684</p>
+                  <p>P.O BOX 5809</p>
                   <p>Kigali, Rwanda</p>
                   <div className="flex items-center gap-2 pt-2">
                     <Phone size={16} className="text-primary" />
-                    <span>+250 788 123 456</span>
+                    <span>+250 783 073 161</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Mail size={16} className="text-primary" />
-                    <span>rwanda@consultpro.com</span>
+                    <span>info@linkageoutsourcing.com</span>
                   </div>
                 </div>
               </div>
@@ -64,11 +64,11 @@ const ContactForm = () => {
                 <div className="p-4 bg-card rounded-lg card-shadow">
                   <h4 className="font-semibold mb-3 text-primary">Nairobi Office</h4>
                   <div className="space-y-1 text-sm text-muted-foreground">
-                    <p>Westlands, Nairobi</p>
-                    <p>Kenya</p>
+                    <p>Box 1008-0517</p>
+                    <p>Nairobi, Kenya</p>
                     <div className="flex items-center gap-2 pt-2">
                       <Phone size={14} className="text-primary" />
-                      <span>+254 700 123 456</span>
+                      <span>+254 705 805 437</span>
                     </div>
                   </div>
                 </div>
@@ -76,11 +76,11 @@ const ContactForm = () => {
                 <div className="p-4 bg-card rounded-lg card-shadow">
                   <h4 className="font-semibold mb-3 text-primary">Mombasa Office</h4>
                   <div className="space-y-1 text-sm text-muted-foreground">
-                    <p>CBD, Mombasa</p>
-                    <p>Kenya</p>
+                    <p>Nyali office, off Umoja Road</p>
+                    <p>Mombasa, Kenya</p>
                     <div className="flex items-center gap-2 pt-2">
                       <Phone size={14} className="text-primary" />
-                      <span>+254 701 123 456</span>
+                      <span>+254 705 805 437</span>
                     </div>
                   </div>
                 </div>

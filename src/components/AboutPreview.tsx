@@ -12,7 +12,7 @@ const AboutPreview = ({ isPreview = false }: AboutPreviewProps) => {
           {isPreview ? (
             <>
               <div className="text-center mb-8">
-                <h2 className="text-primary mb-4">About ConsultPro</h2>
+                <h2 className="text-primary mb-4">About Linkage Outsourcing Services</h2>
                 <p className="text-lg text-muted-foreground">
                   Your trusted partner in business transformation and organizational excellence
                 </p>
@@ -53,19 +53,22 @@ const AboutPreview = ({ isPreview = false }: AboutPreviewProps) => {
           ) : (
             <>
               <div className="text-center mb-12">
-                <h1 className="text-primary mb-6">About ConsultPro</h1>
+                <h1 className="text-primary mb-6">About Linkage Outsourcing Services</h1>
                 <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                  With over a decade of experience in business process outsourcing and organizational development, 
-                  we are your trusted partner in driving business excellence across East Africa.
+                  Linkage Outsourcing Services Ltd (Linkage) is an Outsourcing company with 10 years of experience 
+                  in Business Consultancies, organization Improvement and professional outsourcing. Our company has 
+                  provided workforce and managed over 200 Local and Multinational Organizations in Kenya, Rwanda, 
+                  DR Congo and Burundi since April 2010 and contributed to the performance development of over 3,000 staff.
                 </p>
               </div>
               
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-12">
                 <div>
-                  <h3 className="text-2xl font-semibold mb-4 text-primary">Our Capacity</h3>
+                  <h3 className="text-2xl font-semibold mb-4 text-primary">Our Capacity Statement</h3>
                   <p className="text-muted-foreground mb-4">
-                    ConsultPro specializes in comprehensive business solutions that drive organizational success. 
-                    Our expertise spans across multiple industries, serving both private and public sector clients.
+                    Whether it is a complete turn-key solution or targeted Recruitment or staff Outsourcing, 
+                    you can trust us because we are passionate about our work, and have a proven track record 
+                    of managing long-term Staff Outsourcing partnerships.
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-center">
@@ -74,24 +77,28 @@ const AboutPreview = ({ isPreview = false }: AboutPreviewProps) => {
                     </li>
                     <li className="flex items-center">
                       <div className="w-2 h-2 bg-secondary rounded-full mr-3"></div>
-                      50+ successful projects completed
+                      200+ organizations managed
                     </li>
                     <li className="flex items-center">
                       <div className="w-2 h-2 bg-secondary rounded-full mr-3"></div>
-                      Regional presence in Rwanda and Kenya
+                      3,000+ staff performance development
+                    </li>
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-secondary rounded-full mr-3"></div>
+                      Regional presence across 4 countries
                     </li>
                   </ul>
                 </div>
                 
                 <div>
-                  <h3 className="text-2xl font-semibold mb-4 text-primary">Our Experience</h3>
+                  <h3 className="text-2xl font-semibold mb-4 text-primary">Our Regional Presence</h3>
                   <p className="text-muted-foreground mb-4">
-                    Founded with a vision to transform businesses through strategic consulting and process optimization, 
-                    we have built a reputation for delivering measurable results and sustainable growth.
+                    Our regional clients include Airtel Rwanda, KCB, GT Bank Kigali, Bank of Kigali, Sonarwa, 
+                    Britam, UAP, Oiko Credit, Horizon Group, Akagera Business Group, and many more leading organizations.
                   </p>
                   <p className="text-muted-foreground">
-                    Our team of certified professionals brings together diverse expertise in HR management, 
-                    organizational development, training, and business process optimization.
+                    In Mombasa, our Director Edgar Ogao has extensive experience providing labour and managing 
+                    outsourced staff for Diamond Industries, Cargill, Redplum, Chai Trading Ltd and Pwani Oil.
                   </p>
                 </div>
               </div>

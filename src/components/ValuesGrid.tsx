@@ -5,25 +5,25 @@ const ValuesGrid = () => {
     {
       icon: Eye,
       title: "Vision",
-      content: "To be the leading business solutions provider across East Africa, recognized for excellence, innovation, and sustainable growth partnerships.",
+      content: "To be the leading Corporate Solutions Provider in the region known for driving business performance through understanding customer needs and exceeding their Expectations.",
       color: "bg-primary/10 text-primary"
     },
     {
       icon: Target,
       title: "Mission",
-      content: "To deliver exceptional business process outsourcing and organizational development services that drive measurable results and long-term success for our clients.",
+      content: "By listening, understanding, and delivering innovative learning and performance based solutions resulting in competitive advantages for our clients.",
       color: "bg-secondary/10 text-secondary"
     },
     {
       icon: Heart,
       title: "Motto",
-      content: "Excellence in Service, Partnership in Growth - Building success together through trusted relationships and proven expertise.",
+      content: "People, Skills, Progress - Driving business performance through understanding customer needs and exceeding expectations.",
       color: "bg-primary/10 text-primary"
     },
     {
       icon: Star,
       title: "Core Values",
-      content: "Integrity • Excellence • Innovation • Client Focus • Teamwork • Continuous Learning • Sustainable Growth",
+      content: "Integrity • Teamwork & Respect • Communications • Commitment • Initiative & Innovation",
       color: "bg-secondary/10 text-secondary"
     }
   ];

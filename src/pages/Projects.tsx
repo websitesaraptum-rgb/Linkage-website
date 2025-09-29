@@ -6,71 +6,76 @@ import Footer from '@/components/Footer';
 const Projects = () => {
   const caseStudies = [
     {
-      title: "Organizational Restructuring & Payroll Implementation",
+      title: "Organizational Structure & HR Systems Review",
       client: "First Community Bank",
-      description: "Comprehensive organizational structure redesign, payroll system implementation, and staff training program for one of Rwanda's leading financial institutions.",
-      services: ["Organizational Structure", "Payroll Management", "Staff Training", "Process Optimization"],
+      description: "Comprehensive review of FCB's organisation structure and HR systems. A new structure was developed, accompanied by comprehensive KRAs for each role in the bank.",
+      services: ["Organizational Structure", "HR Systems Review", "KRA Development", "Staff Assessment", "Payroll Outsourcing"],
       outcomes: [
-        "30% improvement in operational efficiency",
-        "Streamlined payroll processing reducing errors by 95%",
-        "Enhanced organizational structure with clear reporting lines",
-        "Comprehensive training program for 200+ employees"
+        "New organizational structure with clear role definitions",
+        "Comprehensive KRAs for all bank positions",
+        "Staff assessment and recommended actions report",
+        "Improved HR processes including recruitment and training",
+        "Enhanced performance management system"
       ],
-      duration: "8 months",
-      teamSize: "12 consultants"
-    },
-    {
-      title: "Staffing Structure & Board Presentation",
-      client: "EADB Bank",
-      description: "Development of optimal staffing structure and presentation to board of directors for the East African Development Bank's regional operations.",
-      services: ["Staffing Analysis", "Organizational Design", "Board Consultation", "Strategic Planning"],
-      outcomes: [
-        "Optimized staffing model across 6 regional offices",
-        "25% reduction in operational costs",
-        "Improved role clarity and accountability",
-        "Board approval for new organizational structure"
-      ],
-      duration: "4 months",
+      duration: "Ongoing project",
       teamSize: "8 consultants"
     },
     {
-      title: "KRA Development & Job Evaluation",
-      client: "Post Office Savings Bank",
-      description: "Comprehensive Key Result Areas (KRA) development, job evaluation system, and salary survey implementation for organizational performance enhancement.",
-      services: ["KRA Development", "Job Evaluation", "Salary Survey", "Performance Systems"],
+      title: "Organizational & Staffing Structure Review",
+      client: "EADB Bank",
+      description: "Complete review of organization and staffing structure resulting in a new optimized structure that reduced staffing levels significantly while improving efficiency.",
+      services: ["Organizational Design", "Staff Assessment", "Salary Structure Review", "Board Presentation", "Payroll Outsourcing"],
       outcomes: [
-        "Clear performance metrics for all positions",
-        "Market-aligned compensation structure",
-        "Improved employee performance tracking",
-        "Enhanced organizational accountability"
+        "36% reduction in staffing levels through optimization",
+        "Comprehensive staff assessment for position suitability",
+        "Market-aligned salary structure revision",
+        "Board of directors presentation and approval",
+        "Enhanced capacity to attract senior staff"
       ],
       duration: "6 months",
       teamSize: "10 consultants"
     },
     {
+      title: "Operations Review & Job Evaluation",
+      client: "Post Office Savings Bank",
+      description: "Comprehensive operations review including new structure development, KRA creation, job evaluation, and salary survey implementation.",
+      services: ["Operations Review", "KRA Development", "Job Evaluation", "Salary Survey", "Scheme of Service Update"],
+      outcomes: [
+        "New operational structure with comprehensive KRAs",
+        "Complete staff assessment and selection process",
+        "Updated scheme of service documentation",
+        "Market-based salary structure development",
+        "Improved organizational efficiency"
+      ],
+      duration: "8 months",
+      teamSize: "12 consultants"
+    },
+    {
       title: "Performance Management & Payroll Systems",
       client: "Uganda Gatsby Trust",
-      description: "Implementation of comprehensive performance management system and payroll optimization for the leading skills development organization.",
-      services: ["Performance Management", "Payroll Systems", "Process Improvement", "Training"],
+      description: "Implementation of performance management system following job evaluation and grading system to achieve strategic objectives.",
+      services: ["Performance Management", "Employee Training", "Payroll Management", "Strategic Alignment"],
       outcomes: [
-        "Automated performance review processes",
-        "Real-time payroll processing capabilities",
-        "Improved employee engagement scores",
-        "Reduced administrative overhead by 40%"
+        "Performance management system implementation",
+        "Employee training on objective setting and tracking",
+        "Improved performance review processes",
+        "Enhanced achievement of strategic objectives",
+        "Streamlined casual and contracted staff payroll"
       ],
-      duration: "5 months",
+      duration: "4 months",
       teamSize: "6 consultants"
     },
     {
       title: "Multi-Country Job Evaluation Project",
-      client: "Unilever ESA",
-      description: "Large-scale job evaluation project across 6 East African countries, standardizing roles and compensation structures for regional consistency.",
-      services: ["Job Evaluation", "Regional Standardization", "Compensation Analysis", "Change Management"],
+      client: "Unilever East & Southern Africa",
+      description: "Comprehensive job evaluation and grading exercise covering assistant managers and supervisors across 6 countries using the Peromnes Job Evaluation System.",
+      services: ["Job Evaluation", "Grading System", "Regional Standardization", "Organizational Analysis"],
       outcomes: [
-        "Standardized job grades across 6 countries",
-        "Harmonized compensation structures",
-        "Improved internal equity and fairness",
-        "Enhanced regional mobility for employees"
+        "Job evaluation across 8 units in 6 countries (Kenya, Uganda, Tanzania, Malawi, Zambia, Mozambique)",
+        "Rationalized grading structure and job titles",
+        "Identified organizational and job structure anomalies",
+        "Standardized approach across manufacturing, tea estates, hospitals, and schools",
+        "Improved payroll and staff management systems"
       ],
       duration: "12 months",
       teamSize: "15 consultants"

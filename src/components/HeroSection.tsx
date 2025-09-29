@@ -32,7 +32,7 @@ const HeroSection = ({
             {title}
           </h1>
           <p className="text-xl md:text-2xl mb-4 font-semibold text-secondary">
-            {subtitle}
+            People, Skills, Progress
           </p>
           <p className="text-lg mb-8 opacity-90 max-w-2xl mx-auto">
             {description}

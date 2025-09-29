@@ -26,7 +26,7 @@ const Services = () => {
       <section className="section-padding bg-muted/30">
         <div className="container">
           <SectionTitle
-            title="Why Choose ConsultPro?"
+            title="Why Choose Linkage Outsourcing Services?"
             subtitle="What sets our services apart in the market"
           />
 
@@ -41,18 +41,18 @@ const Services = () => {
 
             <div className="text-center">
               <div className="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-secondary">50+</span>
+                <span className="text-2xl font-bold text-secondary">200+</span>
               </div>
-              <h3 className="text-lg font-semibold mb-2">Satisfied Clients</h3>
-              <p className="text-muted-foreground">Leading organizations trust our expertise</p>
+              <h3 className="text-lg font-semibold mb-2">200+ Organizations</h3>
+              <p className="text-muted-foreground">Successfully managed organizations across the region</p>
             </div>
 
             <div className="text-center">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-primary">2</span>
+                <span className="text-2xl font-bold text-primary">4</span>
               </div>
-              <h3 className="text-lg font-semibold mb-2">Countries</h3>
-              <p className="text-muted-foreground">Regional presence in Rwanda and Kenya</p>
+              <h3 className="text-lg font-semibold mb-2">4 Countries</h3>
+              <p className="text-muted-foreground">Regional presence in Rwanda, Kenya, DR Congo and Burundi</p>
             </div>
           </div>
 

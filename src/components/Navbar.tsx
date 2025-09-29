@@ -20,7 +20,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <a href="/" className="text-xl font-bold">
-              ConsultPro
+              Linkage Outsourcing Services
             </a>
           </div>
 

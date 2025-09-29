@@ -18,65 +18,65 @@ const ServicesList = () => {
     {
       icon: Building2,
       title: "Warehouse Management",
-      description: "Comprehensive warehouse operations and logistics management solutions.",
-      features: ["Inventory optimization", "Process automation", "Quality control", "Supply chain management"]
+      description: "Work gangs and casual staff management for efficient warehouse operations.",
+      features: ["Work gangs management", "Casual staff coordination", "Inventory support", "Operations oversight"]
     },
     {
       icon: Users,
       title: "Contracted Staff Management",
-      description: "End-to-end management of contracted personnel and workforce solutions.",
-      features: ["Staff deployment", "Performance monitoring", "Compliance management", "Contract administration"]
+      description: "Management of staff on 3, 6 to 12 months renewable contracts.",
+      features: ["Contract management", "Staff deployment", "Performance monitoring", "Renewal coordination"]
     },
     {
       icon: Search,
-      title: "Head Hunting",
-      description: "Executive search and recruitment services for senior-level positions.",
-      features: ["Executive search", "Talent acquisition", "Skills assessment", "Reference checking"]
+      title: "Head Hunting Services",
+      description: "Recruitment of Technical and Professional staff for specialized roles.",
+      features: ["Technical recruitment", "Professional search", "Skills assessment", "Placement services"]
     },
     {
       icon: Calculator,
-      title: "Payroll & Statutory Deductions",
-      description: "Complete payroll processing and statutory compliance management.",
-      features: ["Payroll processing", "Tax calculations", "Statutory compliance", "Benefits administration"]
+      title: "Payroll Services & Statutory Deductions",
+      description: "Complete payroll processing including NHIF, NSSF, PAYE and other statutory deductions.",
+      features: ["Direct deposit reports", "Payroll registers", "Statutory deductions (NHIF, NSSF)", "PAYE calculations", "Reimbursements & expenses", "Bonus management", "Leave encashments", "Loan management", "Hard & soft payslips generation"]
     },
     {
       icon: Shield,
-      title: "Health & Safety Training",
+      title: "Staff Health & Safety Training",
       description: "Comprehensive workplace safety training and compliance programs.",
-      features: ["Safety protocols", "Risk assessment", "Compliance training", "Emergency procedures"]
+      features: ["Safety protocols", "Compliance training", "Risk assessment", "Emergency procedures"]
     },
     {
       icon: Ambulance,
-      title: "Insurance & Ambulance",
-      description: "Insurance management and emergency medical services coordination.",
-      features: ["Insurance claims", "Medical support", "Emergency response", "Health programs"]
+      title: "Insurance & Ambulance Services",
+      description: "Staff insurance (WIBA) and ambulance services for workplace safety.",
+      features: ["WIBA insurance coverage", "Emergency medical services", "Medical support", "Health programs"]
     }
   ];
 
   const developmentServices = [
     {
       icon: GraduationCap,
-      title: "Consultancy Services",
+      title: "Management Consultancy & Advisory Services",
       description: "Strategic business consulting and organizational development solutions.",
       features: ["Strategic planning", "Process improvement", "Change management", "Performance optimization"]
     },
     {
       icon: TrendingUp,
-      title: "Leadership Training",
-      description: "Executive and management development programs for organizational leaders.",
-      features: ["Leadership development", "Management skills", "Strategic thinking", "Executive coaching"]
+      title: "Leadership & Supervisors Training Programs",
+      description: "Comprehensive leadership development programs for organizational leaders.",
+      features: ["Leadership development", "Management skills", "Supervisory training", "Executive coaching"]
+    },
+    {
+      icon: Shield,
+      title: "Health & Safety Training",
+      description: "Specialized health and safety training programs for workplace compliance.",
+      features: ["Safety protocols", "Workplace safety", "Compliance training", "Risk management"]
     },
     {
       icon: HeartHandshake,
       title: "Team Building",
       description: "Team development and collaboration enhancement programs.",
       features: ["Team dynamics", "Communication skills", "Conflict resolution", "Performance improvement"]
-    },
-    {
-      icon: UserCheck,
-      title: "HR Support",
-      description: "Comprehensive human resources support and development services.",
-      features: ["HR strategy", "Policy development", "Employee relations", "Performance management"]
     }
   ];
 

@@ -7,19 +7,19 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4 text-secondary">ConsultPro</h3>
+            <h3 className="text-2xl font-bold mb-4 text-secondary">Linkage Outsourcing Services</h3>
             <p className="text-gray-300 mb-6 max-w-md">
-              Leading business processing outsourcing and organizational development consultancy 
-              serving clients across East Africa and beyond.
+              Leading outsourcing company with 10+ years of experience in Business Consultancies, 
+              organization Improvement and professional outsourcing across East Africa.
             </p>
             <div className="space-y-2">
               <div className="flex items-center gap-2">
                 <Mail size={16} className="text-secondary" />
-                <span>info@consultpro.com</span>
+                <span>info@linkageoutsourcing.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone size={16} className="text-secondary" />
-                <span>+250 788 123 456</span>
+                <span>+250 783 073 161</span>
               </div>
             </div>
           </div>
@@ -50,7 +50,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} ConsultPro. All rights reserved.
+              © {new Date().getFullYear()} Linkage Outsourcing Services Ltd. All rights reserved.
             </p>
             <div className="flex gap-4 mt-4 md:mt-0">
               <div className="flex items-center gap-2 text-gray-400">
