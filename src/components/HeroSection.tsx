@@ -1,4 +1,6 @@
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight } from "lucide-react";
+
+import linkageHero from "../assets/linkage-hero.png";
 
 interface HeroSectionProps {
   title: string;
@@ -9,32 +11,38 @@ interface HeroSectionProps {
   backgroundImage?: string;
 }
 
-const HeroSection = ({ 
-  title, 
-  subtitle, 
-  description, 
-  ctaText, 
+const HeroSection = ({
+  title,
+  subtitle,
+  description,
+  ctaText,
   ctaLink,
-  backgroundImage 
 }: HeroSectionProps) => {
+  const backgroundImageURL = linkageHero;
   return (
-    <section 
+    <section
       className="relative bg-primary text-primary-foreground py-20 md:py-32"
-      style={backgroundImage ? {
-        backgroundImage: `linear-gradient(rgba(0, 140, 69, 0.8), rgba(0, 140, 69, 0.8)), url(${backgroundImage})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center'
-      } : {}}
+      // Use the new variable name in the style
+      style={
+        backgroundImageURL
+          ? {
+              backgroundImage: `linear-gradient(rgba(0, 140, 69, 0.8), rgba(1, 38, 20, 0.5)), url(${backgroundImageURL})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }
+          : {}
+      }
     >
       <div className="container">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="mb-6">
-            {title}
-          </h1>
+          <h1 className="mb-6">{title}</h1>
           <p className="text-xl md:text-2xl mb-4 font-semibold text-secondary">
             People, Skills, Progress
           </p>
-          <p className="text-lg mb-8 opacity-90 max-w-2xl mx-auto">
+          <p
+            className="text-lg mb-8 opacity-100 max-w-2xl mx-auto font-semibold"
+            style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
+          >
             {description}
           </p>
           <a

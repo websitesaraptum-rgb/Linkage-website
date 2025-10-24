@@ -1,16 +1,16 @@
-import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
-
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
+import linkageLogo from "../assets/linkage-logo.png";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
-    { name: 'Services', href: '/services' },
-    { name: 'Projects', href: '/projects' },
-    { name: 'Clients', href: '/clients' },
-    { name: 'Contact', href: '/contact' },
+    { name: "Home", href: "/" },
+    { name: "About", href: "/about" },
+    { name: "Services", href: "/services" },
+    { name: "Projects", href: "/projects" },
+    { name: "Clients", href: "/clients" },
+    { name: "Contact", href: "/contact" },
   ];
 
   return (
@@ -19,8 +19,15 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <a href="/" className="text-xl font-bold">
-              Linkage Outsourcing Services
+            <a href="/" className="flex items-center gap-2">
+              <img
+                src={linkageLogo}
+                alt="Linkage Outsourcing Logo"
+                className="h-10 w-auto"
+              />
+              <span className="text-xl font-bold">
+                Linkage Outsourcing Services
+              </span>
             </a>
           </div>
 

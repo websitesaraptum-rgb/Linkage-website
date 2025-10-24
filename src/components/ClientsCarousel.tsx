@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 const ClientsCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -28,13 +28,13 @@ const ClientsCarousel = () => {
     { name: "Cargill", logo: "Cargill" },
     { name: "Redplum", logo: "Redplum" },
     { name: "Chai Trading Ltd", logo: "Chai" },
-    { name: "Pwani Oil", logo: "Pwani" }
+    { name: "Pwani Oil", logo: "Pwani" },
   ];
 
   // Auto-scroll functionality
   useEffect(() => {
     const timer = setInterval(() => {
-      setCurrentIndex((prevIndex) => 
+      setCurrentIndex((prevIndex) =>
         prevIndex === clients.length - 1 ? 0 : prevIndex + 1
       );
     }, 3000);
@@ -67,16 +67,21 @@ const ClientsCarousel = () => {
             {getVisibleClients().map((client, index) => (
               <div
                 key={`${client.name}-${index}`}
-                className="flex-shrink-0 w-1/6 px-4"
+                className="flex-shrink-0 w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 xl:w-1/6 px-4"
               >
-                <div className="bg-white p-6 rounded-lg card-shadow hover:shadow-hover transition-smooth h-32 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-2">
-                      <span className="text-primary font-bold text-lg">
+                <div className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                  <div className="p-6 flex flex-col items-center justify-center h-40">
+                    {/* Logo area */}
+                    <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center mb-3">
+                      <span className="text-primary font-bold text-xl">
                         {client.logo.substring(0, 2)}
                       </span>
                     </div>
-                    <p className="text-sm font-medium text-gray-700">{client.name}</p>
+
+                    {/* Client name */}
+                    <p className="text-sm font-semibold text-gray-800 text-center">
+                      {client.name}
+                    </p>
                   </div>
                 </div>
               </div>
@@ -91,7 +96,7 @@ const ClientsCarousel = () => {
               key={index}
               onClick={() => setCurrentIndex(index)}
               className={`w-2 h-2 rounded-full transition-smooth ${
-                index === currentIndex ? 'bg-primary' : 'bg-gray-300'
+                index === currentIndex ? "bg-primary" : "bg-gray-300"
               }`}
             />
           ))}
