@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import linkageLogo from "../assets/linkage-logo.png";
+import linkageLogo from "../assets/Linkage-logo.jpg";
+
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const logo = linkageLogo;
+
   const navLinks = [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
