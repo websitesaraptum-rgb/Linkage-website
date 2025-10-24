@@ -3,7 +3,7 @@ import { Menu, X } from "lucide-react";
 import linkageLogo from "../assets/linkage-logo.png";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+  const logo = linkageLogo;
   const navLinks = [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
@@ -21,7 +21,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <a href="/" className="flex items-center gap-2">
               <img
-                src={linkageLogo}
+                src={logo}
                 alt="Linkage Outsourcing Logo"
                 className="h-10 w-auto"
               />
