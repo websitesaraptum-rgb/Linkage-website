@@ -4,6 +4,7 @@ import linkageLogo from "../assets/Linkage-logo.jpg";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   const logo = linkageLogo;
 
   const navLinks = [

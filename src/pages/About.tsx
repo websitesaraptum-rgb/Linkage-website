@@ -1,15 +1,25 @@
-import Navbar from '@/components/Navbar';
-import AboutPreview from '@/components/AboutPreview';
-import ValuesGrid from '@/components/ValuesGrid';
-import Footer from '@/components/Footer';
+import Navbar from "@/components/Navbar";
+import AboutPreview from "@/components/AboutPreview";
+import ValuesGrid from "@/components/ValuesGrid";
+import Footer from "@/components/Footer";
+
+import { Helmet } from "react-helmet-async";
+
+<Helmet>
+  <title>About | Linkage Outsourcing Services</title>
+  <meta
+    name="description"
+    content="Learn more about Linkage Outsourcing’s mission and values."
+  />
+</Helmet>;
 
 const About = () => {
   return (
     <div className="min-h-screen">
       <Navbar />
-      
+
       <AboutPreview isPreview={false} />
-      
+
       <ValuesGrid />
 
       {/* Experience & Expertise */}
@@ -25,7 +35,9 @@ const About = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-card p-6 rounded-lg card-shadow">
-                <h3 className="text-xl font-semibold text-primary mb-4">Industry Experience</h3>
+                <h3 className="text-xl font-semibold text-primary mb-4">
+                  Industry Experience
+                </h3>
                 <ul className="space-y-3">
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-secondary rounded-full mr-3"></div>
@@ -51,7 +63,9 @@ const About = () => {
               </div>
 
               <div className="bg-card p-6 rounded-lg card-shadow">
-                <h3 className="text-xl font-semibold text-primary mb-4">Service Capabilities</h3>
+                <h3 className="text-xl font-semibold text-primary mb-4">
+                  Service Capabilities
+                </h3>
                 <ul className="space-y-3">
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-secondary rounded-full mr-3"></div>
