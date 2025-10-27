@@ -1,34 +1,66 @@
 import { useState, useEffect } from "react";
+import KCB from "../assets/ke-kcb-logo-min.png";
+import Airtel from "../assets/Airtel_Africa_logo.svg.png";
+
+import GTBank from "../assets/clientLogo/GTBank.png";
+import BK from "../assets/clientLogo/Bank-of-kigali.jpg";
+import Sonarwa from "../assets/clientLogo/sonarwa.jpg";
+import Britam from "../assets/clientLogo/britam.png";
+import UAP from "../assets/clientLogo/UAP-LOGO.png";
+import Oiko from "../assets/clientLogo/Oiko-Credit.jpg";
+import ABG from "../assets/clientLogo/akagera_business_group_logo.jpg";
+import PSF from "../assets/clientLogo/Private-Sector-Federation.png";
+import BPI from "../assets/clientLogo/Business-Partners-International.jpg";
+
+import WB from "../assets/clientLogo/World-Bank.png";
+
+import Chemi from "../assets/clientLogo/Chemi-Cotex.jpg";
+
+import UNDP from "../assets/clientLogo/UNDP.png";
+
+import BBOXX from "../assets/clientLogo/BBOXX-International.jpg";
+
+import TechnoServe from "../assets/clientLogo/Techno-Serve.png";
+
+import Girlhub from "../assets/clientLogo/Girlhub.png";
+
+import Nike from "../assets/clientLogo/Nike-Foundation.jpg";
+
+import cargill from "../assets/clientLogo/Cargill_logo.svg.png";
+
+import Chai from "../assets/clientLogo/Chai-Trading-Ltd.jpg";
+
+import Pwani from "../assets/clientLogo/Pwani-Oil.png";
 
 const ClientsCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const clients = [
-    { name: "Airtel Rwanda", logo: "Airtel" },
-    { name: "KCB Bank", logo: "KCB" },
-    { name: "GT Bank Kigali", logo: "GT Bank" },
-    { name: "Bank of Kigali", logo: "BK" },
-    { name: "Sonarwa", logo: "Sonarwa" },
-    { name: "Britam", logo: "Britam" },
-    { name: "UAP Insurance", logo: "UAP" },
-    { name: "Oiko Credit", logo: "Oiko" },
+    { name: "Airtel Rwanda", logo: Airtel },
+    { name: "KCB Bank", logo: KCB },
+    { name: "GT Bank Kigali", logo: GTBank },
+    { name: "Bank of Kigali", logo: BK },
+    { name: "Sonarwa", logo: Sonarwa },
+    { name: "Britam", logo: Britam },
+    { name: "UAP Insurance", logo: UAP },
+    { name: "Oiko Credit", logo: Oiko },
     { name: "Horizon Group", logo: "Horizon" },
-    { name: "Akagera Business Group", logo: "ABG" },
+    { name: "Akagera Business Group", logo: ABG },
     { name: "Mjengo", logo: "Mjengo" },
-    { name: "Private Sector Federation", logo: "PSF" },
-    { name: "Business Partners International", logo: "BPI" },
-    { name: "World Bank", logo: "WB" },
-    { name: "Chemi Cotex", logo: "Chemi" },
-    { name: "UNDP", logo: "UNDP" },
-    { name: "BBOXX International", logo: "BBOXX" },
-    { name: "Techno Serve", logo: "TechnoServe" },
-    { name: "Girlhub", logo: "Girlhub" },
-    { name: "Nike Foundation", logo: "Nike" },
+    { name: "Private Sector Federation", logo: PSF },
+    { name: "Business Partners International", logo: BPI },
+    { name: "World Bank", logo: WB },
+    { name: "Chemi Cotex", logo: Chemi },
+    { name: "UNDP", logo: UNDP },
+    { name: "BBOXX International", logo: BBOXX },
+    { name: "Techno Serve", logo: TechnoServe },
+    { name: "Girlhub", logo: Girlhub },
+    { name: "Nike Foundation", logo: Nike },
     { name: "Diamond Industries", logo: "Diamond" },
-    { name: "Cargill", logo: "Cargill" },
+    { name: "Cargill", logo: cargill },
     { name: "Redplum", logo: "Redplum" },
-    { name: "Chai Trading Ltd", logo: "Chai" },
-    { name: "Pwani Oil", logo: "Pwani" },
+    { name: "Chai Trading Ltd", logo: Chai },
+    { name: "Pwani Oil", logo: Pwani },
   ];
 
   // Auto-scroll functionality
@@ -73,9 +105,21 @@ const ClientsCarousel = () => {
                   <div className="p-6 flex flex-col items-center justify-center h-40">
                     {/* Logo area */}
                     <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center mb-3">
-                      <span className="text-primary font-bold text-xl">
-                        {client.logo.substring(0, 2)}
-                      </span>
+                      {typeof client.logo === "string" &&
+                      client.logo.startsWith("data:") === false &&
+                      !client.logo.includes("/") ? (
+                        // If logo is text (not a file path)
+                        <span className="text-primary font-bold text-xl">
+                          {client.logo.substring(0, 2)}
+                        </span>
+                      ) : (
+                        // If logo is an imported image
+                        <img
+                          src={client.logo}
+                          alt={client.name}
+                          className="w-16 h-16 object-contain"
+                        />
+                      )}
                     </div>
 
                     {/* Client name */}
