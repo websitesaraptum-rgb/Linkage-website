@@ -29,7 +29,7 @@ const Navbar = () => {
                 className="h-10 w-auto"
               />
               <span className="text-xl font-bold">
-                Linkage Outsourcing Services
+                Linkage Outsourcing Services LTD
               </span>
             </a>
           </div>
