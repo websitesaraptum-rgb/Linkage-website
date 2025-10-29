@@ -25,11 +25,11 @@ const Services = () => {
       >
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="mb-6">Our Services</h1>
+            {/* <h1 className="mb-6">Our Services</h1>
             <p className="text-xl opacity-90">
               Comprehensive business solutions designed to optimize your
               operations and drive sustainable growth
-            </p>
+            </p> */}
           </div>
         </div>
       </section>
