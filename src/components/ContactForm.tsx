@@ -65,10 +65,10 @@ const ContactForm = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="p-4 bg-card rounded-lg card-shadow">
                   <h4 className="font-semibold mb-3 text-primary">
-                    Nairobi Office
+                    Kigali Office
                   </h4>
                   <div className="space-y-1 text-sm text-muted-foreground">
-                    <p>Box 1008-0517</p>
+                    <p>P.O BOX 5809</p>
                     <p>Kigali, Rwanda</p>
                     <div className="flex items-center gap-2 pt-2">
                       <Phone size={14} className="text-primary" />

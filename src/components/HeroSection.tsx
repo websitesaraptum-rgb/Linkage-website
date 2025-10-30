@@ -3,7 +3,8 @@ import { ArrowRight } from "lucide-react";
 
 import hero1 from "../assets/businessman.jpg";
 import hero2 from "../assets/linkage-project.jpg";
-import hero3 from "../assets/linkage-client.jpg"; // <-- optional extra image
+import hero3 from "../assets/linkage-client.jpg"; // <-- optional extra image4
+import hero4 from "../assets/linkage-logo-bg.jpg";
 
 interface HeroSectionProps {
   ctaText: string;
@@ -33,6 +34,12 @@ const HeroSection = ({ ctaText, ctaLink }: HeroSectionProps) => {
       description:
         "Partnering with international and regional organizations to deliver measurable business results.",
       image: hero3,
+    },
+    {
+      title: "logo",
+      subtitle: "",
+      description: "",
+      image: hero4,
     },
   ];
 

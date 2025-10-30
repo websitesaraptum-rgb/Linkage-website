@@ -19,6 +19,9 @@ const Footer = () => {
               <div className="flex items-center gap-2">
                 <Mail size={16} className="text-secondary" />
                 <span>admin@linkageoutsourcing.com</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Mail size={16} className="text-secondary" />
                 <span>serviceslinkage@gmail.com </span>
               </div>
               <div className="flex items-center gap-2">
