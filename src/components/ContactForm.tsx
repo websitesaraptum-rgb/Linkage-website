@@ -50,9 +50,10 @@ const ContactForm = () => {
                   <p>BUILDING: LR NO 209/431 </p>
                   <p>P. Box 0517-1008 Nairobi</p>
                   <p>Starehe district</p>
+
                   <div className="flex items-center gap-2 pt-2">
                     <Phone size={16} className="text-primary" />
-                    <span>+254 705 805 437</span>
+                    <span>+254102299922</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Mail size={16} className="text-primary" />
@@ -85,7 +86,7 @@ const ContactForm = () => {
                     <p>Nyali office, off Umoja Road</p>
                     <p>Mombasa, Kenya</p>
                     <div className="flex items-center gap-2 pt-2">
-                      <Phone size={14} className="text-primary" />
+                      <Phone size={16} className="text-primary" />
                       <span>+254 705 805 437</span>
                     </div>
                   </div>
