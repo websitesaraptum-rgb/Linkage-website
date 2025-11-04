@@ -11,34 +11,10 @@ import serviceReport from "../assets/service-delivery-report.pdf";
 import SectionTitle from "@/components/SectionTitle";
 
 import trainingVideo from "../assets/outsourcing-promo.mp4"; // <-- make sure this file exists
-import { Helmet } from "react-helmet-async";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <Helmet>
-        <title>Linkage Outsourcing | HR & Recruitment</title>
-        <meta
-          name="description"
-          content="Linkage Outsourcing provides HR outsourcing, recruitment, and staffing services across Kenya and East Africa."
-        />
-        <meta
-          property="og:image"
-          content="https://linkageoutsourcing.com/Linkage-logo.png"
-        />
-        <meta
-          property="og:title"
-          content="Linkage Outsourcing | HR & Recruitment"
-        />
-        <meta
-          property="og:description"
-          content="Linkage Outsourcing offers business process outsourcing, HR consultancy, and staffing solutions in Kenya and East Africa."
-        />
-        <meta
-          name="keywords"
-          content="HR outsourcing, recruitment Kenya, staffing, linkage outsourcing, business process outsourcing"
-        />
-      </Helmet>
       <Navbar />
 
       <HeroSection ctaText="Work With Us" ctaLink="/contact" />
