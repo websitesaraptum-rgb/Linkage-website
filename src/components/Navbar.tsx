@@ -25,7 +25,7 @@ const Navbar = () => {
             <a href="/" className="flex items-center gap-2">
               <img
                 src={logo}
-                alt="Linkage Outsourcing Logo"
+                alt="Linkage, HR and Recruitment in Kenya and east Africa"
                 className="h-10 w-auto"
               />
               <span className="text-xl font-bold">
