@@ -55,7 +55,7 @@ export const careers: Career[] = [
 
     requirements: [
       "Bachelor's Degree in Information Technology, Computer Science, Telecommunications, Transport and Logistics, Fleet Management, Operations Management or a related discipline.",
-      "At least 3–5 years of relevant experience in fleet tracking, telematics, transport operations or control room management.",
+      "At least 3 to 5 years of relevant experience in fleet tracking, telematics, transport operations or control room management.",
       "At least 3 years of experience in a supervisory or managerial position.",
       "Demonstrable experience managing a busy control room or centralised monitoring operation.",
       "Experience managing large commercial fleets, preferably 600+ vehicles and 1,500 telematics devices.",

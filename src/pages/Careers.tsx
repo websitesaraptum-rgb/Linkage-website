@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet-async";
 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { careers } from "@/data/careers";
+import { careers } from "@/data/careersData";
 
 const Careers = () => {
   const [candidateNames, setCandidateNames] = useState<Record<string, string>>(
